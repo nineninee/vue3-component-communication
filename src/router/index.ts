@@ -33,6 +33,11 @@ const router = createRouter({
       name: 'useAttrs',
       component: () => import('../views/05_useAttrs/Father.vue')
     },
+    {
+      path: '/ref-$parent',
+      name: 'ref-$parent',
+      component: () => import('../views/06_ref-$parent/Father.vue')
+    },
   ]
 })
 

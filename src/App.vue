@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/event-bus">event-bus</RouterLink>
         <RouterLink to="/v-model">v-model</RouterLink>
         <RouterLink to="/useAttrs">useAttrs</RouterLink>
+        <RouterLink to="/ref-$parent">ref-$parent</RouterLink>
       </nav>
     </div>
   </header>
