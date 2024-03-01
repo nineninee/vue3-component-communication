@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/props">props</RouterLink>
         <RouterLink to="/custom-events">custom-events</RouterLink>
         <RouterLink to="/event-bus">event-bus</RouterLink>
+        <RouterLink to="/v-model">v-model</RouterLink>
       </nav>
     </div>
   </header>

@@ -11,8 +11,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import Child1 from "../event-bus/Child1.vue";
-import Child2 from "../event-bus/Child2.vue";
+import Child1 from "./Child1.vue";
+import Child2 from "./Child2.vue";
 
 
 // 使用mitt插件实现
