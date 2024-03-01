@@ -13,6 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/v-model">v-model</RouterLink>
         <RouterLink to="/useAttrs">useAttrs</RouterLink>
         <RouterLink to="/ref-$parent">ref-$parent</RouterLink>
+        <RouterLink to="/provide-inject">provide-inject</RouterLink>
       </nav>
     </div>
   </header>

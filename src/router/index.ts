@@ -38,6 +38,12 @@ const router = createRouter({
       name: 'ref-$parent',
       component: () => import('../views/06_ref-$parent/Father.vue')
     },
+    {
+      path: '/provide-inject',
+      name: 'provide-inject',
+      component: () => import('../views/07_provide-inject/Father.vue')
+    },
+    
   ]
 })
 
