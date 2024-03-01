@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'custom-events',
       component: () => import('../views/customEvents/Father.vue')
     },
+    {
+      path: '/event-bus',
+      name: 'event-bus',
+      component: () => import('../views/event-bus/Father.vue')
+    },
   ]
 })
 
